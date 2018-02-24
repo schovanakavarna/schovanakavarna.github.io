@@ -80,3 +80,9 @@ body {
 .instagram {
     background-image: url("instagram.png");
 }
+
+@media (max-height: 430px) {
+    .social-network {
+        height: 100px;
+    }
+}
