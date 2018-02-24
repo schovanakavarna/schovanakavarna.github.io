@@ -1,0 +1,82 @@
+html {
+    height: 100%;
+}
+
+body {
+    background-size: auto 100%;
+    background-position-x: center;
+    background-repeat: no-repeat;
+    background-image: url("foto_orez.png");
+    background-color: black;
+}
+
+.content-frame {
+    background-color: black;
+    opacity: 0.75;
+    width: 720px;
+    height: 450px;
+    position:absolute;
+    left:0; right:0;
+    top:0; bottom:0;
+    margin:auto;
+    max-width:100%;
+    max-height:100%;
+}
+
+.content {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 19px;
+    width: 720px;
+    height: 450px;
+    position:absolute;
+    left:0; right:0;
+    top:0; bottom:0;
+    margin:auto;
+    max-width:100%;
+    max-height:100%;
+}
+
+
+
+.banner {
+    background-size: cover;
+    background-position-x: 50%;
+    background-position-y: 0;
+    background-repeat: no-repeat;
+    background-image: url("banner_logo2.png");
+    width: 100%;
+    padding-top: 30%;
+
+}
+
+.text {
+    text-align: initial;
+    width: 80%;
+    margin: 0 auto 10px;
+}
+
+.bottom-banner {
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+    position: absolute;
+}
+
+.social-network {
+    display: inline-block;
+    background-position-x: 50%;
+    background-position-y: 50%;
+    background-size: 80%;
+    background-repeat: no-repeat;
+    width: 80px;
+    height: 150px;
+}
+
+.facebook {
+    background-image: url("facebook.png");
+}
+
+.instagram {
+    background-image: url("instagram.png");
+}
