@@ -8,7 +8,7 @@ body {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    background-image: url("foto_optimized.jpg");
+    background-image: url("foto.jpg");
     background-color: black;
     display: flex;
     justify-content: center;
