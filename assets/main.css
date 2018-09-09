@@ -1,57 +1,58 @@
 html {
     height: 100%;
+    min-height: 820px;
+    min-width: 720px;
 }
 
 body {
-    background-size: auto 100%;
-    background-position-x: center;
+    background-size: cover;
+    background-position: cefont-kerningnter;
     background-repeat: no-repeat;
-    background-image: url("foto_optimized.jpg");
+    background-image: url("foto.jpg");
     background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
 }
 
 a {
     color: white;
 }
 
-.content-frame {
-    background-color: black;
-    opacity: 0.75;
-    width: 720px;
-    height: 450px;
-    position:absolute;
-    left:0; right:0;
-    top:0; bottom:0;
-    margin:auto;
-    max-width:100%;
-    max-height:100%;
-}
-
 .content {
     color: white;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 19px;
     width: 720px;
-    height: 450px;
-    position:absolute;
-    left:0; right:0;
-    top:0; bottom:0;
-    margin:auto;
-    max-width:100%;
-    max-height:100%;
+    /*border: 1px solid green;*/
 }
 
-
+.opening-hours {
+    background-color: white;
+    color: #8e7867;
+    font-weight: bold;
+    font-size: 32px;
+}
 
 .banner {
-    background-size: cover;
-    background-position-x: 50%;
-    background-position-y: 0;
+    background-size: contain;
     background-repeat: no-repeat;
-    background-image: url("banner_logo2.png");
-    width: 100%;
-    padding-top: 30%;
+    background-image: url("banner_logo3.png");
+    background-position-y: center;
+    height: 180px;
+}
 
+.small-text {
+    font-size: 35px;
+    line-height: 1.7em;
+}
+
+.large-text {
+    font-size: 74px;
+    text-align: left;
+    font-weight: bold;
+    padding: 90px 0;
+    line-height: 1em;
 }
 
 .text {
@@ -63,9 +64,6 @@ a {
 
 .bottom-banner {
     text-align: center;
-    bottom: 0;
-    width: 100%;
-    position: absolute;
 }
 
 .social-network {
@@ -75,7 +73,7 @@ a {
     background-size: 80%;
     background-repeat: no-repeat;
     width: 80px;
-    height: 110px;
+    height: 150px;
 }
 
 .facebook {
