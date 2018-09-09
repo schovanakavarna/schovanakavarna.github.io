@@ -6,7 +6,7 @@ html {
 
 body {
     background-size: cover;
-    background-position: cefont-kerningnter;
+    background-position: center;
     background-repeat: no-repeat;
     background-image: url("foto.jpg");
     background-color: black;
@@ -37,13 +37,13 @@ a {
 .banner {
     background-size: contain;
     background-repeat: no-repeat;
-    background-image: url("banner_logo3.png");
+    background-image: url("banner_logo.png");
     background-position-y: center;
     height: 180px;
 }
 
 .small-text {
-    font-size: 35px;
+    font-size: 34px;
     line-height: 1.7em;
 }
 
