@@ -21,6 +21,8 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 lang: cs_CZ
 
+google_analytics: UA-151498069-1
+
 social:
   name: Schovaná kavárna
   links:
@@ -32,14 +34,8 @@ markdown: kramdown
 plugins:
   - jekyll-seo-tag
   - jekyll-feed
-  - jekyll-analytics
 
 theme: minima
-
-jekyll_analytics:
-  GoogleAnalytics:          # Add, if you want to track with Google Analytics
-    id: UA-151498069-1      # Required - replace with your tracking id
-    anonymizeIp: false      # Optional - Default: false - set to true for anonymized tracking
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list

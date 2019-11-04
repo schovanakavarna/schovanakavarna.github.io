@@ -3,6 +3,10 @@
     <head>
         <link rel="stylesheet" href="{{site.baseurl}}/assets/main.css">
         {% seo %}
+        <!-- Google Analytics -->
+        {%- if jekyll.environment == 'production' and site.google_analytics -%}
+            {%- include google-analytics.html -%}
+        {%- endif -%}
     </head>
     <body>
             <div class="content">
